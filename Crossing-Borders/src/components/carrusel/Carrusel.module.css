@@ -1,0 +1,22 @@
+.carrusel {
+    display: flex;
+    width: 1360px; /* Ajusta el ancho según tus necesidades */
+    height: 430px; /* Ajusta la altura según tus necesidades */
+    align-content: center;
+  }
+  
+  .image {
+    width: 0;
+    height: 100%; /* Añade una altura para las imágenes */
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+  }
+  
+  .image:hover {
+    width: 300px; /* Ajusta el ancho al valor deseado al hacer hover */
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  

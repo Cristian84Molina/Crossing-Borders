@@ -1,0 +1,47 @@
+/* Card.module.css */
+.card {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centra el texto horizontalmente */
+    max-width: 200px; /* Establece un ancho máximo para cada tarjeta */
+  }
+  
+  .image {
+    width: 150px; /* Tamaño fijo para todas las imágenes */
+    height: 150px; /* Tamaño fijo para todas las imágenes */
+    margin-bottom: 16px; /* Espacio entre la imagen y la información */
+  }
+  
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente los elementos */
+  }
+  
+  .club {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .detalle {
+    margin-top: 8px;
+  }
+  
+  .precio {
+    color: #007bff; /* Color azul (puedes ajustarlo según tu diseño) */
+    font-weight: bold;
+  }
+  
+  .codigo {
+    color: #555;
+  }
+  

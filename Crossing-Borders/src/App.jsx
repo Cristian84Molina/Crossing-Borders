@@ -1,14 +1,12 @@
-
 import './App.css'
-
+import Home from './views/home/Home'
 function App() {
   
 
   return (
-    <>
-      <div className='container'>PAGINA EN COSNTRUCCION</div>
-      <img className='image' src="https://i.postimg.cc/Pf3nYWKP/Whats-App-Image-2023-08-31-at-6-06-41-PM.jpg" alt="" />
-    </>
+    <div className='container'>
+      <Home></Home>
+    </div>
   )
 }
 

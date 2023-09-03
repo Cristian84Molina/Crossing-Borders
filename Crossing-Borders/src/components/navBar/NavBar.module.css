@@ -1,0 +1,37 @@
+/* Navbar.module.css */
+.navbar {
+    width: 95%; /* Ocupa todo el ancho de la página */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  
+  }
+  
+  .companyName {
+    font-size: 24px;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Mueve el contenido hacia la esquina superior derecha */
+  }
+  
+  .navLink {
+    margin-left: 1rem; /* Espacio entre los enlaces */
+    text-decoration: none;
+    color: white;
+  }
+  
+  .image {
+    width: 7%; 
+    margin-right: 1rem;
+  }
+
+  .image2 {
+    width: 22%; 
+    margin-right: 1rem;
+  }
