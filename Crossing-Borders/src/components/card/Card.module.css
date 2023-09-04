@@ -1,43 +1,57 @@
 /* Card.module.css */
 .card {
     display: flex;
-    flex-direction: column; /* Cambia la dirección del flex a columna */
-    align-items: center; /* Centra horizontalmente los elementos */
-    border: 1px solid #ddd;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #fff; /* Cambia el color del borde a blanco */
     border-radius: 8px;
     margin: 16px;
     padding: 16px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centra el texto horizontalmente */
-    max-width: 200px; /* Establece un ancho máximo para cada tarjeta */
+    background-color: #000; /* Cambia el fondo a negro */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); /* Cambia el sombreado a blanco */
+    text-align: center;
+    max-width: 200px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4); /* Cambia el sombreado al pasar el ratón */
   }
   
   .image {
-    width: 150px; /* Tamaño fijo para todas las imágenes */
-    height: 150px; /* Tamaño fijo para todas las imágenes */
-    margin-bottom: 16px; /* Espacio entre la imagen y la información */
+    width: 180px;
+    height: 180px;
+    margin-bottom: 16px;
+    transition: transform 0.2s ease;
+  }
+  
+  .image:hover {
+    transform: scale(1.05);
   }
   
   .info {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra verticalmente los elementos */
+    justify-content: center;
   }
   
   .club {
     font-size: 18px;
     font-weight: bold;
     margin: 0;
+    color: #fff; /* Cambia el color del texto a blanco */
   }
   
   .detalle {
     margin-top: 8px;
+    color: #fff; /* Cambia el color del texto a blanco */
+    font-weight: bold; /* Hace que el texto sea más grueso */
   }
   
   .precio {
-    color: #007bff; /* Color azul (puedes ajustarlo según tu diseño) */
+    color: #007bff;
     font-weight: bold;
   }
   
