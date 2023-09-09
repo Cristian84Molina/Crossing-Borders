@@ -1,13 +1,18 @@
 import './App.css'
-import Home from './views/home/Home'
-function App() {
-  
+import Home from './views/home/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
+function App() {
   return (
-    <div className='container'>
-      <Home></Home>
-    </div>
-  )
+    <Router>
+      <div className='App'>
+        <Routes>
+          <Route exact path='/Home' element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
 export default App
