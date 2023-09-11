@@ -1,12 +1,13 @@
 /* Navbar.module.css */
 .navbar {
-    width: 95%; /* Ocupa todo el ancho de la página */
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  margin-bottom: 10px;
+  width: 1200px;
   
   }
   

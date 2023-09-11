@@ -5,9 +5,3 @@
   align-items: center; /* Centra horizontalmente los elementos */
 }
 
-.cardContainer {
-  display: flex;
-  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea */
-  justify-content: center; /* Centra las tarjetas horizontalmente */
-  gap: 16px; /* Espacio entre las tarjetas */
-}

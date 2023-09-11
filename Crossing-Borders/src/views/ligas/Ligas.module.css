@@ -1,0 +1,18 @@
+/* LigasEuropeas.module.css */
+
+.pageContainer {
+  width: 110%;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    padding: 5px; /* Añade espaciado alrededor del contenido */
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea cuando no quepan en la pantalla */
+    justify-content: center; /* Centra horizontalmente las tarjetas */
+    gap: 20px; /* Espaciado entre las tarjetas */
+  }
+
+  

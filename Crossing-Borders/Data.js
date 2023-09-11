@@ -11,6 +11,7 @@ export const camisetas = [
         precio: 22,
         codigo: "PSG-001",
         detalle: "Camiseta Concept Paris Saint-Germain 2023/2024.",
+        continente: "Europa",
       },
       {
         Club: "FC Barcelona",
@@ -23,7 +24,8 @@ export const camisetas = [
         ],
         precio: 22,
         codigo: "BAR-001",
-        detalle: "Camiseta Entrenamiento FC Barcelona 2023/2024."
+        detalle: "Camiseta Entrenamiento FC Barcelona 2023/2024.",
+        continente: "Europa",
       },
       {
         Club: "AFC Ajax",
@@ -35,7 +37,8 @@ export const camisetas = [
         ],
         precio: 25,
         codigo: "AJX-001",
-        detalle: "Camiseta Concept AFC Ajax 2023/2024."
+        detalle: "Camiseta Concept AFC Ajax 2023/2024.",
+        continente: "Europa",
       },
       {
         Club: "Inter Miami CF",
@@ -46,7 +49,8 @@ export const camisetas = [
         ],
         precio: 20,
         codigo: "MIA-001",
-        detalle: "Camiseta Visitante Inter Miami CF 2023/2024."
+        detalle: "Camiseta Visitante Inter Miami CF 2023/2024.",
+        continente: "America",
       },
       {
         Club: "FC Barcelona",
@@ -57,7 +61,8 @@ export const camisetas = [
         ],
         precio: 22,
         codigo: "BAR-001",
-        detalle: "Camiseta Local FC Barcelona 2023/2024."
+        detalle: "Camiseta Local FC Barcelona 2023/2024.",
+        continente: "Europa",
       }
       
       

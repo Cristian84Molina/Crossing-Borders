@@ -40,7 +40,7 @@ function Seccion() {
             />
             <div className={style.overlay}>
               <h2 className={style.title}>Mundial</h2>
-              <a href="/mapa-mundi" className={style.link}>
+              <a href="/mundial" className={style.link}>
                 Ver más
               </a>
             </div>
