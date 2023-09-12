@@ -1,5 +1,6 @@
 import React from "react";
 import style from './Card.module.css';
+import { Link } from "react-router-dom";
 
 function Card({ camiseta }) {
   return (
@@ -14,6 +15,9 @@ function Card({ camiseta }) {
         <p className={style.detalle}>{camiseta.detalle}</p>
         <p className={style.precio}>Precio: € {camiseta.precio}</p>
         <p className={style.codigo}>Código: {camiseta.codigo}</p>
+        <h4>
+          <Link to={`/details/${camiseta.codigo}`}>Ver Mas</Link>
+        </h4>
       </div>
     </div>
   );
