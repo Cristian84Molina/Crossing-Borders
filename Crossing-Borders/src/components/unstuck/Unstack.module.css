@@ -1,0 +1,19 @@
+.container {
+  font-size: 100px;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea cuando no quepan en la pantalla */
+  justify-content: center; /* Centra horizontalmente las tarjetas */
+  gap: 20px; /* Espaciado entre las tarjetas */
+}
+
+.titulo {
+    
+    text-align: center; /* Centra horizontalmente el texto */
+  display: flex; /* Utiliza flexbox para centrar verticalmente */
+  justify-content: center; /* Centra verticalmente el contenido horizontalmente */
+  align-items: center; /* Centra verticalmente el contenido verticalmente */
+  height: 100%; /* Ajusta la altura al 100% del contenedor */
+
+}
