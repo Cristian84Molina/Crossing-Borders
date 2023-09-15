@@ -60,7 +60,7 @@ export const camisetas = [
           "https://i.postimg.cc/jq3vqb5T/FC-Barcelona-adulto-removebg-preview.png"
         ],
         precio: 22,
-        codigo: "BAR-001",
+        codigo: "BAR-002",
         detalle: "Camiseta Local FC Barcelona 2023/2024.",
         continente: "Europa",
       }
