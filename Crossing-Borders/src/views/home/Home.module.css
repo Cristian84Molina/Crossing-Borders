@@ -2,6 +2,6 @@
 .pageContainer {
   display: flex;
   flex-direction: column; /* Cambia la dirección del flex a columna */
-  align-items: center; /* Centra horizontalmente los elementos */
+
 }
 

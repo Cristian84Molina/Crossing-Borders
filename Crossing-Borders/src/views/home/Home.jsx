@@ -4,6 +4,7 @@ import Carrusel from "../../components/carrusel/Carrusel.jsx";
 import style from './Home.module.css'
 import Seccion from "../seccion/Seccion.jsx";
 import Unstack from "../../components/unstuck/Unstack.jsx";
+import Footer from "../../components/footer/Footer.jsx";
 
 function Home() {
     return (
@@ -12,7 +13,7 @@ function Home() {
         <Carrusel/>
         <Seccion/>
         <Unstack/>
-        
+        <Footer />
         
         
   

@@ -7,8 +7,18 @@
     padding: 20px;
     gap: 20px; /* Espaciado entre las columnas */
     text-align: center;
+    position: relative;
     
   }
+  /* Estilos para el botón de volver */
+/* Estilos para el botón de volver */
+.volverButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px; /* Ajusta el tamaño de la flecha */
+}
+
   
   /* Estilos para el título */
   .detailContainer h2 {
@@ -23,18 +33,6 @@
     text-align: center;
   }
 
-  .detailContainer button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px; /* Agrega espacio superior para separar el botón */
-    width: 50%; /* Ajusta el ancho del botón según tus preferencias */
-    
-    
-  }
   
   /* Estilos para la imagen principal */
   .mainImage {

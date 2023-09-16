@@ -1,0 +1,30 @@
+/* Footer.module.css */
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  display: flex; /* Establece un contenedor flexible */
+  justify-content: space-between; /* Espacio entre los elementos */
+  align-items: center; /* Centra verticalmente */
+  flex-wrap: wrap; /* Para manejar el contenido en pantallas pequeñas */
+}
+
+.footer-logo img {
+  max-width: 100px;
+}
+
+.footer-contact, .footer-social {
+  display: flex; /* Contenedor flexible para elementos internos */
+  flex-direction: column; /* Apila elementos internos verticalmente */
+  text-align: center;
+}
+
+.footer-contact p, .footer-social a {
+  margin: 5px 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+

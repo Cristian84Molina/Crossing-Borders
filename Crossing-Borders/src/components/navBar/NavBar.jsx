@@ -16,14 +16,7 @@ function Navbar() {
         src="https://i.postimg.cc/vTyNHw66/CB.png"
         alt=""
       />
-      <div className={styles.navLinks}>
-        <a className={styles.navLink} href="#">
-          Login
-        </a>
-        <a className={styles.navLink} href="#">
-          Sign In
-        </a>
-      </div>
+      
     </div>
   );
 }
