@@ -5,3 +5,12 @@
 
 }
 
+.titulo {
+    
+  text-align: center; /* Centra horizontalmente el texto */
+display: flex; /* Utiliza flexbox para centrar verticalmente */
+justify-content: center; /* Centra verticalmente el contenido horizontalmente */
+align-items: center; /* Centra verticalmente el contenido verticalmente */
+height: 100%; /* Ajusta la altura al 100% del contenedor */
+
+}

@@ -12,14 +12,14 @@ function LigasEuropeas() {
   return (
     <div className={style.pageContainer}>
       <Navbar />
-      <Link to="/Home" className={style.homeButton}>
-        Volver a Home
-      </Link>
       <div className={style.cardContainer}>
         {camisetasEuropa.map((camiseta, index) => (
           <Card key={index} camiseta={camiseta} />
         ))}
       </div>
+      <Link to="/Home" className={style.homeButton}>
+        Volver a Home
+      </Link>
     </div>
   );
 }

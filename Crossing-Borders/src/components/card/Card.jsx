@@ -5,11 +5,14 @@ import { Link } from "react-router-dom";
 function Card({ camiseta }) {
   return (
     <div className={style.card}>
+       <Link to={`/details/${camiseta.codigo}`}>
+
       <img
         className={style.image}
         src={camiseta.imagenes[0]} // Muestra la primera imagen de la camiseta
         alt={camiseta.Club}
       />
+       </Link>
       <div className={style.info}>
         <h2 className={style.club}>{camiseta.Club}</h2>
         <p className={style.detalle}>{camiseta.detalle}</p>

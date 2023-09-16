@@ -10,7 +10,9 @@ function Home() {
     return (
       <div className={style.pageContainer} >
         <Navbar />
+        <h1 className={style.titulo}>--------------------------------------------------------------</h1> 
         <Carrusel/>
+        <h1 className={style.titulo}>--------------------------------------------------------------</h1> 
         <Seccion/>
         <Unstack/>
         <Footer />
