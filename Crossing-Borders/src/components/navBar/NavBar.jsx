@@ -19,8 +19,12 @@ function Navbar() {
       <Link to="/Home" className={styles.homeButton}>
         Home
       </Link>
-      <h5>Como Comprar?</h5>
-      <h5>Nosotros</h5>
+
+
+      <Link to="/comoComprar" className={styles.homeButton}>
+        ¿¿Como Comprar??
+      </Link>
+      
       <a
           href="https://wa.me/+34613603503"
           target="_blank"

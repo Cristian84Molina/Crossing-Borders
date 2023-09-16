@@ -5,6 +5,7 @@ import LigasEuropeas from './views/ligas/LigasEuropeas';
 import LigasAmericanas from './views/ligas/LigasAmericanas';
 import Mundial from './views/ligas/Mundial';
 import Detail from './views/detail/Detail';
+import ComoComprar from './components/comoComprar/ComoComprar';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/ligas-america" element={<LigasAmericanas />}></Route>
           <Route exact path="/mundial" element={<Mundial />}></Route>
           <Route exact path="/details/:codigo" element={<Detail />}></Route>
+          <Route exact path="/comoComprar" element={<ComoComprar />}></Route>
         </Routes>
       </div>
     </Router>
