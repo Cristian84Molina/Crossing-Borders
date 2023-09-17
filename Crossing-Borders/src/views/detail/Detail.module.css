@@ -1,5 +1,5 @@
 /* Detail.module.css */
-.container{
+.Container{
   background-color: black;
 }
 
@@ -63,11 +63,30 @@
     display: flex;
     flex-direction: column; /* Apila los elementos verticalmente */
     align-items: center; /* Centra horizontalmente los elementos */
+    background-color: black;
   }
   
   .rightColumn {
     flex: 1; /* Ocupa todo el espacio disponible en la columna derecha */
+    background-color: black;
   }
   
 
-  
+  .comprar {
+    
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #450292;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    text-align: center
+  }
+
+  .comprar:hover {
+    background-color: #9807ec;
+  }
