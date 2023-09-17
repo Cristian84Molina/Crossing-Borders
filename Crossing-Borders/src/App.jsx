@@ -13,6 +13,7 @@ function App() {
     <Router>
       <div className='App'>
         <Routes>
+        <Route exact path='/' element={<Home />} />
           <Route exact path='/Home' element={<Home />} />
           <Route exact path="/ligas-europeas" element={<LigasEuropeas />}></Route>
           <Route exact path="/ligas-america" element={<LigasAmericanas />}></Route>
