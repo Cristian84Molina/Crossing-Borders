@@ -31,7 +31,7 @@ function Detail() {
   };
 
   return (
-    <div>
+    <div className={styles.Container}>
       <Navbar />
     <div className={styles.detailContainer}>
       <Link className={styles.volverButton}  onClick={() => navigate(-1)}> Volver </Link>

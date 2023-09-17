@@ -6,6 +6,7 @@
     flex-direction: column; /* Alinea los elementos en una columna */
     align-items: center; /* Centra horizontalmente los elementos */
     padding: 5px; /* Añade espaciado alrededor del contenido */
+    background-color: black;
   }
   
   .cardContainer {

@@ -1,4 +1,7 @@
 /* Detail.module.css */
+.container{
+  background-color: black;
+}
 
 .detailContainer {
     display: flex;
@@ -8,6 +11,7 @@
     gap: 20px; /* Espaciado entre las columnas */
     text-align: center;
     position: relative;
+    background-color: black;
     
   }
   /* Estilos para el botón de volver */
