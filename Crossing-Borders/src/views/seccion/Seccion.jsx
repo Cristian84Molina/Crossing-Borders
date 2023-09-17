@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./Seccion.module.css"
+import { Link } from "react-router-dom";
 
 function Seccion() {
     return (
@@ -12,9 +13,9 @@ function Seccion() {
             />
             <div className={style.overlay}>
               <h2 className={style.title}>Ligas Europeas</h2>
-              <a href="/ligas-europeas" className={style.link}>
+              <Link to="/ligas-europeas" className={style.link}>
                 Ver más
-              </a>
+              </Link>
             </div>
           </div>
     
@@ -26,9 +27,9 @@ function Seccion() {
             />
             <div className={style.overlay}>
               <h2 className={style.title}>Ligas de América</h2>
-              <a href="/ligas-america" className={style.link}>
+              <Link to="/ligas-america" className={style.link}>
                 Ver más
-              </a>
+              </Link>
             </div>
           </div>
     
@@ -40,9 +41,9 @@ function Seccion() {
             />
             <div className={style.overlay}>
               <h2 className={style.title}>Mundial</h2>
-              <a href="/mundial" className={style.link}>
+              <Link to="/mundial" className={style.link}>
                 Ver más
-              </a>
+              </Link>
             </div>
           </div>
         </div>
