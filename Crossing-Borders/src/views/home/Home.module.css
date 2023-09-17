@@ -2,6 +2,7 @@
 .pageContainer {
   display: flex;
   flex-direction: column; /* Cambia la dirección del flex a columna */
+  background-color: black;
 
 }
 
